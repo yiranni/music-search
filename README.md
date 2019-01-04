@@ -6,5 +6,13 @@ A practice of using `fetch()` and promises to download and display music preview
 
 ![music-search](https://github.com/yiranni/music-search/blob/master/musicsearch.gif)
 
+## Try Yourself
+Please clone and open in 
+
+```
+music-search/project/index.html
+```
+      
+
 
 
