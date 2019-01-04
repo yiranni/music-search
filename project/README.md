@@ -4,5 +4,7 @@ A practice of using `fetch()` and promises to download and display music preview
 
 ## Demo
 
+![music-search](https://github.com/yiranni/music-search/blob/master/musicsearch.gif)
+
 
 
