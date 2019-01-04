@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ps-5, ex-1</title>
+
+    <!-- Bootstrap for styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Load JavaScript libraries here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Font Awesome for icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="container">
+    <h1>
+        Play Some Music!
+        <i class="d-none fa fa-spinner fa-spin" aria-hidden="true"></i>
+    </h1>
+
+    <!-- The search form -->
+    <form class="form-inline" method="GET" action="https://itunes.apple.com/search">
+        <div class="form-group mr-3">
+            <label for="searchQuery" class="mr-2">What do you want to hear?</label>
+            <input type="text" name="term" id="searchQuery" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">
+      <i class="fa fa-music" aria-hidden="true"></i> Search!
+    </button>
+        <input type="hidden" name="entity" value="song">
+        <!-- extra form param -->
+    </form>
+
+    <!-- Results to show -->
+    <div id="records">
+        <!-- data will be added here -->
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

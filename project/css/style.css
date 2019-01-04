@@ -1,0 +1,13 @@
+.records {
+  display: flex; /* flexbox for wrapping */
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+img {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  cursor: pointer; /* so looks clickable! */
+}

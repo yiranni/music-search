@@ -1,0 +1,55 @@
+{
+  "name": "exercise-06",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.8.0",
+    "fetch-mock": "^5.13.1",
+    "jquery": "^3.2.1",
+    "node-fetch": "^1.7.3",
+    "readline-sync": "^1.4.7"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-recommended"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "shared-node-browser": true,
+      "jquery": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": "off",
+      "semi": [
+        "off",
+        "always",
+        {
+          "omitLastInOneLineBlock": true
+        }
+      ],
+      "camelcase": [
+        "error"
+      ]
+    }
+  }
+}
